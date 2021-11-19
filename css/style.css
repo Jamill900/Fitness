@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+:root {
+  --zeleniy: #a2ca28;
+  --krasniy: #fd634e;
+}
+
+/* HEADER */
+header {
+	position: relative;
+	height: 100vh;
+	background: url('../img/headerbg.jpg') center/cover;
+	color: #fff;
+	text-transform: uppercase;
+}
+#logo, #menu, #topic { 
+	position: absolute; 
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+#logo {
+	top: 40px;
+}
+#menu {
+	top: 100px;
+}
+#topic {
+	bottom: 130px;
+}
+#menu a {
+	font: .8em Montserrat, sans-serif;
+	color: #fff;
+}
+
+h1 {
+	font: 2em Poppins, sans-serif;
+	white-space: nowrap;
+}
+h5 {
+	font: .93em Poppins, sans-serif;
+	text-align: right;
+	padding: 0 20px 0 0;
+}
+h1 span { color: var(--zeleniy) }
+h5 span { color: var(--krasniy) }
+
+.zeleniybg { background: var(--zeleniy) }
+.krasniybg { background: var(--krasniy) }
+.beliybg { background: #fff }
+.row { padding: 90px 0 }
+.col { padding: 20px 10px }
+.h50 { height: 37vh }
+.h40 { height: 30vh }
+.h30 { height: 40vh }
+.sunset {height: 70vh}
+footer {height: 100vh}
+
+.col .fas {
+	color: white;
+	font-size: 45px;
+	padding-right: 3px;
+}
+
+.col h2 {
+	font: 1.5em Montserrat, sans-serif;
+	color: #fff;
+	padding: 22px 5px 0 0; 
+}
+
+.col p {
+	font: 0.87em Poppins, sans-serif;
+  	color: #fff;
+  	padding: 30px 0 30px 5px;
+}
+
+.col a {
+	font: 0.87em Poppins, sans-serif;
+  	color: #fff;
+  	padding: 0 0 0 5px;
+}
+
+.h50 h6 {
+	font: 0.87em Montserrat, sans-serif;
+	color: #fd634e;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 55px 0 15px 0;
+}
+
+.h50 h3 {
+	font: 2em Montserrat, sans-serif;
+	color: #a2ca28;
+ 	text-transform: uppercase;
+	text-align: center;
+}
+
+.fa-tint {
+	color: #e3e9ea;
+	font-size: 23px;
+	padding: 23px 0 23px 188px;
+}
+
+.h50 p {
+	font: 0.8em/1.5 Poppins, sans-serif;
+	color: #656e74;
+	text-align: center;
+	width: 350px;
+	padding-left: 45px;
+}
+
+.h50 a {
+	font: 0.8em Poppins, sans-serif;
+	color: #a3ca28;
+	text-decoration: underline;
+	padding: 15px 0 0 165px;
+}
+
+.h40 h6 {
+	font: 0.87em Montserrat, sans-serif;
+	color: #fd634e;
+	text-align: left;
+	text-transform: uppercase; 
+	padding: 55px 0 5px 40px;
+}
+
+.h40 h3 {
+	font: 1.8em Montserrat, sans-serif;
+	color: #a2ca28;
+ 	text-transform: uppercase;
+	text-align: left;
+	padding: 0 0 25px 40px; 
+}
+
+.h40 p {
+	font: 0.8em/2 Poppins, sans-serif;
+	color: #656e74;
+	text-align: left;
+	width: 325px;
+	padding-left: 40px;
+}
+
+#summer {
+	font: 1.8em Montserrat, sans-serif;
+	color: #fff;
+ 	text-transform: uppercase;
+	text-align: left;
+	padding: 65px 0 30px 40px; 
+}
+
+#lorem {
+	font: 0.7em/2 Poppins, sans-serif;
+	color: #fff;
+	width: 325px;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.h30 h6 {
+	font: 0.87em Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase; 
+	padding: 55px 0 5px 40px;
+}
+
+.h30 h3 {
+	font: 1.8em Montserrat, sans-serif;
+	color: #fff;
+ 	text-transform: uppercase;
+	text-align: left;
+	padding: 0 0 25px 40px; 
+}
+
+.h30 p {
+	font: 0.8em/2 Poppins, sans-serif;
+	color: #fff;
+	text-align: left;
+	width: 325px;
+	padding-left: 40px;
+}
+
+#lorem1 {
+	font: 0.7em/2 Poppins, sans-serif;
+	color: #fff;
+	width: 325px;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.sunset h1 {
+	font: 1.2em Montserrat, sans-serif;
+	color: #fff;
+	text-align: center;
+	padding: 240px 0 30px 0; 
+
+}
+
+.sunset p {
+	font: 0.7em Poppins, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+	float: left;
+}
+
+.column h2 {
+	font: 0.7em Montserrat, sans-serif;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-left: 10px; 
+}
+
+.column p {
+	font: 0.6em/1.7 Montserrat, sans-serif;
+	color: #8297a7;
+	padding: 0 100px 40px 10px;
+}
+
+.column a {
+	padding-left: 10px;
+}
+
+.row1{
+	float: right;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#name {
+	font: 0.6em/1.7 Montserrat, sans-serif;
+	color: #83969f;
+	padding: 10px 50px 10px 20px; 
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+#email {
+	font: 0.6em/1.7 Montserrat, sans-serif;
+	color: #83969f;
+	padding: 10px 150px 10px 20px; 
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 20px;
+	margin-left: 10px;
+
+}
+#button {
+	font: 0.6em/1.7 Montserrat, sans-serif;
+	color: #fff;
+	background-color: #a2ca28;
+	padding: 10px 10px 10px 10px; 
+	border-radius: 3px;
+	border: none;
+	margin-left: 10px;
+
+}
+
+#fitness { background: url('../img/fitness.jpg') center/cover; }
+#yourbody { background: url('../img/yourbody.jpg') center/cover; }
+#health { background: url('../img/health.jpg') center/cover; }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover; }
+#grapes { background: url('../img/grapes.jpg') center/cover; }
+#avocado {background: url('../img/avocado.jpg') center/cover;}
+.sunset {background: url('../img/footer.png') center/cover;}
+#zeleniybg {background-color: var(--zeleniy);}
+#beliybg { background-color: #fff; }
+#habits {color: #a2ca28}
+#lorem1 {color: #656e74 }
+#track {color: #fd634e }
+footer { background-color: #0d1119 }
+
+@media only screen and (min-width: 768px) {
+	.container {
+		max-width: 1180px;
+		margin: auto;
+	}
+	h1 { font-size: 2.5em }
+	#logo, #menu, #topic { 
+		left: inherit;
+		transform: inherit;
+	}
+	#logo { left: 50px }
+	#menu { 
+		top: 60px; 
+		right: 60px;
+	}
+	#menu li { 
+		display: inline-block;
+		margin: 0 30px;
+	}
+	#topic { left: 115px }
+	
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.col {
+		float: left;
+		width: 24%;
+		margin: 0 1% 0 0;
+	}
+	.col:last-child {
+		margin: 0;
+	}
+
+	.h30 { height: 30vh }
+	.w1 { width: 34% }
+	.w2 { width: 66% }
+	.fleft { float: left }
+	.fright { float: right }
+
+	#lorem { width: 650px;}
+	#lorem1 { width: 680px; }
+
+	.column { width: 33% }
+	.sunset h1 {font-size: 2.4em}
+	.sunset p {font-size: 1em}
+	.column p {padding-bottom: 0;}
+	footer {height: 50vh}
+	#button {margin-right: 140px;}
+
+}
